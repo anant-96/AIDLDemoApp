@@ -6,7 +6,7 @@ plugins {
 android {
     namespace = "com.anantdesai.calculatorclientapp"
     compileSdk {
-        version = release(36) {
+        version = release(37) {
             minorApiLevel = 1
         }
     }

@@ -10,6 +10,10 @@ android {
         }
     }
 
+    buildFeatures{
+        aidl= true
+    }
+
     defaultConfig {
         applicationId = "com.anantdesai.calculatorserviceapp"
         minSdk = 24
